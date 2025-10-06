@@ -3,22 +3,24 @@ import { FaLinkedin } from "react-icons/fa";
 
 import Link from "next/link";
 import Image from "next/image";
-import { placeholder, teamImg } from "@/public/assets";
+import { placeholder, teamImg2526 } from "@/public/assets";
 import Dropdown from "@/components/Dropdown";
 
 import { Developers } from "@/constants/index";
 import {
   getCommittee,
+  // getAdvisor,
   getStudentHeads,
   getFaculty,
 } from "@/sanity/utilsSanity";
 const buttonReg = {
-  href: "https://drive.google.com/file/d/1YGMMP4EdTCxS4Xrcg1cWX0EV2iM5C3MD/view?usp=sharing",
+  href: "https://drive.google.com/file/d/19U-k2iOiJSHdfogjzWwvRD2Yf33-4GT_/view?usp=sharing",
   text: "Full Committee List",
 };
 
 const page = async () => {
   const committees = await getCommittee();
+  // const studentAdvisors = await getAdvisor();
   const studentHeads = await getStudentHeads();
   const faculty = await getFaculty();
   return (
@@ -32,7 +34,7 @@ const page = async () => {
 
       <div className="w-full mt-8 ">
         <Image
-          src={teamImg}
+          src={teamImg2526}
           alt="team"
           className="h-[20dvh] md:h-[55dvh] object-center rounded-md w-full  object-cover"
         />
@@ -107,6 +109,42 @@ const page = async () => {
           </div>
         ))}
       </div>
+{/* 
+      <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-10 decoration-4  decoration-accent-500 underline underline-offset-8  ">
+        Student Advisors
+      </h1>
+      <div className=" my-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
+        {studentAdvisors.map((studentAdvisors, index) => (
+          <div
+            data-aos="fade-left"
+            data-aos-delay={index * 50}
+            key={studentAdvisors.advisoryDepartment}
+            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl  hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
+            <div>
+              <div className="text-base sm:text-xl font-bold font-heading text-text-200 ">
+                {studentAdvisors.advisoryDepartment}
+              </div>
+              <div className="text-[.9rem] text-accent-300 pb-2 font-semibold">
+                {studentAdvisors.advisor}
+              </div>
+              <Link
+                href={`${studentAdvisors.linkedin}`}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="linkedIn">
+                <FaLinkedin className="text-xl text-text-200 hover:text-accent-400" />
+              </Link>
+            </div>
+            <Image
+              src={studentAdvisors.ImageUrl ? studentAdvisors.ImageUrl : placeholder}
+              alt="Img"
+              height={100}
+              width={100}
+              className="float aspect-[1/1] rounded-full"
+            />
+          </div>
+        ))}
+      </div> */}
 
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-4 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Committee Heads

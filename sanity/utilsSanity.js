@@ -57,7 +57,7 @@ export async function getAchievement() {
 }
 
 const CommitteeQuery = groq`
-*[_type == "committee"] | order(committee asc) {
+*[_type == "committee"]{
   head,
   committee,
   "ImageUrl": image.asset->url, 
@@ -71,6 +71,22 @@ export async function getCommittee() {
     cache: "no-cache",
   });
 }
+
+// const StudentAdvisorsQuery = groq`
+// *[_type == "StudentAdvisors"] | order(StudentAdvisors asc) {
+//   advisoryDepartment,
+//   advisor,
+//   "ImageUrl": image.asset->url, 
+//   linkedin
+// }
+// `;
+
+// export async function getAdvisor() {
+//   return client.fetch(StudentAdvisorsQuery, {
+//     cache: "no-cache",
+//   });
+// }
+
 const StudentHeadsQuery = groq`
 *[_type == "studentHeads"]{
   position,

@@ -91,6 +91,17 @@ import {
   surbhi,
   dhananjay,
   kaveri,
+ atharva,
+ nisha,
+ priyansu,
+ vrushti,
+ harish,
+ deval,
+ shrushti,
+ vaishvik,
+ ChesNoText,
+ Himanshu2425,
+ Rahul2425,
 } from "@/public/assets";
 
 export const NavLinks = [
@@ -526,7 +537,7 @@ export const Batch2122 = [
     linkedin: "https://www.linkedin.com/in/vrund-shah-b44a36193",
   },
   {
-    position: "PUBLIC RELATION",
+    position: "PUBLIC RELATIONS",
     name: "Ayush Biyani",
     ImageUrl: ayush,
     linkedin: "https://www.linkedin.com/in/ayush-biyani",
@@ -594,7 +605,7 @@ export const Batch2223 = [
     linkedin: "https://www.linkedin.com/in/bollineni-neha-a22319202/",
   },
   {
-    position: "PUBLIC RELATION",
+    position: "PUBLIC RELATIONS",
     name: "Abhyudayam Dadhich",
     linkedin: "https://www.linkedin.com/in/abhyudaya-dadhich-712916205/",
   },
@@ -662,7 +673,7 @@ export const Batch2324 = [
     linkedin: "https://www.linkedin.com/in/rupesh-yadav-3440ba22a/",
   },
   {
-    position: "PUBLIC RELATION",
+    position: "PUBLIC RELATIONS",
     name: "Saumya Jain",
     ImageUrl: soumya,
     linkedin: "https://www.linkedin.com/in/saumya-jain-183-/",
@@ -699,5 +710,98 @@ export const Batch2324 = [
     name: "Sarita Meena",
     ImageUrl: sarita,
     linkedin: "https://www.linkedin.com/in/sarita-meena-6b1bba227",
+  },
+];
+
+export const Batch2425 = [
+  {
+    position: "President",
+    name: "Dev Sharma",
+    ImageUrl: devsharma,
+    linkedin: "https://www.linkedin.com/in/dev-sharma-4b8b52150",
+  },
+  {
+    position: "Vice-President",
+    name: "Aswin Nair",
+    ImageUrl: aswin,
+    linkedin: "https://www.linkedin.com/in/aswin-nair-750b22222",
+  },
+  {
+    position: "Secretary",
+    name: "Sarita Meena",
+    ImageUrl: sarita,
+    linkedin: "https://www.linkedin.com/in/sarita-meena-6b1bba227",
+  },
+  {
+    position: "Secretary",
+    name: "Kushal Doshi",
+    ImageUrl: kushal,
+    linkedin: "https://www.linkedin.com/in/kushal-doshi-033569241",
+  },
+  {
+    position: "Managerial",
+    name: "Priyansu Prajapati",
+    ImageUrl: priyansu,
+    linkedin: "https://www.linkedin.com/in/priyansu-prajapati-8b5166258",
+  },
+  {
+    position: "Technical",
+    name: "Himanshu Singh",
+    ImageUrl: Himanshu2425,
+    linkedin: "https://www.linkedin.com/in/himanshu-singh-319747263",
+  },
+  {
+    position: "K12 Outreach",
+    name: "Vrushti Patel",
+    ImageUrl:  vrushti,
+    linkedin: "https://www.linkedin.com/in/vrushti-patel-a63819262",
+  },
+  {
+    position: "Public Relations",
+    name: "Deval Mehta",
+    ImageUrl: deval,
+    linkedin: "https://www.linkedin.com/in/deval-mehta-59652b254",
+  },
+  {
+    position: "Design",
+    name: "Atharva Tajane",
+    ImageUrl: atharva,
+    linkedin: "https://www.linkedin.com/in/atharva-tajane",
+  },
+  {
+    position: "Social Media",
+    name: "Shrushti Meshram",
+    ImageUrl: shrushti,
+    linkedin: "https://www.linkedin.com/in/shrushti-meshram-ba3b7a290",
+  },
+  {
+    position: "Finance",
+    name: "Vaishvik Kothia",
+    ImageUrl: vaishvik,
+    linkedin: "https://www.linkedin.com/in/vaishvik-kothia",
+  },
+  {
+    position: "Web Development",
+    name: "Archit Kulshrestha",
+    ImageUrl: Archit,
+    linkedin: "https://www.linkedin.com/in/archit-kulshrestha-1aa01a255",
+  },
+  {
+    position: "Editorial",
+    name: "Rahul Choudhary",
+    ImageUrl: Rahul2425,
+    linkedin: "https://www.linkedin.com/in/rahul-choudhary-ch52",
+  },
+  {
+    position: "Documentation",
+    name: "Nisha Sinha",
+    ImageUrl: nisha,
+    linkedin: "https://www.linkedin.com/in/nisha1304",
+  },
+  {
+    position: "Publicity",
+    name: "Harish Khandelwal",
+    ImageUrl: harish,
+    linkedin: "https://www.linkedin.com/in/harish-khandelwal-a247b7255",
   },
 ];

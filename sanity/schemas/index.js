@@ -2,6 +2,7 @@ import Events from "./Events";
 import About from "./About";
 import Achievement from "./Achievement";
 import Committee from "./Committee";
+// import Advisor from "./Advisor";
 import studentHeads from "./StudentHeads";
 import Gallery from "./Gallery";
 import Notifications from "./Notifications";
@@ -13,6 +14,7 @@ const schemas = [
   About,
   Achievement,
   Committee,
+  // Advisor,
   studentHeads,
   Gallery,
   Faculty,

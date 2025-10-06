@@ -4,6 +4,8 @@ import Hero from "./hero.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import teamImg from "./teamImg2.jpg";
+import teamImg2526 from "./teamImg2526.jpg";
+import TeamImg2526yr from "./TeamImg2526yr.jpg";
 
 import SIPHON from "./SIPHON.webp";
 import SRC from "./SRC.webp";
@@ -22,6 +24,7 @@ import eurekah from "./eurekad.jpeg";
 import eurekae from "./eurekae.jpeg";
 import EurekaHome from "./Home-image.webp";
 import SIPHONlogo from "./SIPHONlogo.webp";
+import ChESlogo from "./ChESlogo.png";
 
 import car_logo from "./car_logo.webp";
 import SRClogo from "./SRClogo.webp";
@@ -98,6 +101,17 @@ import salonee from "./salonee1617.png";
 import surbhi from "./surbhi1415.png";
 import dhananjay from "./dhananjay1516.png";
 import kaveri from "./kaveri1516.png";
+import atharva from "./atharvaTajane2425.jpeg";
+import nisha from "./nisha2425.jpeg";
+import priyansu from "./priyansu2425.jpeg";
+import vrushti from "./vrushti2425.jpeg";
+import harish from "./harish2425.jpeg";
+import deval from "./devalmehta2425.jpeg";
+import shrushti from "./shrushtimeshram2425.jpeg";
+import vaishvik from "./vaishvikkothia2425.jpeg";
+import Himanshu2425 from "./himanshu2425.jpeg";
+import Rahul2425 from "./rahul2425.jpeg";
+
 export {
   EurekaHome,
   vivek,
@@ -133,6 +147,8 @@ export {
   SRClogo,
   Eurekalogo,
   teamImg,
+  teamImg2526,
+  TeamImg2526yr,
   SRC,
   EurekaNav,
   Archit,
@@ -195,4 +211,15 @@ export {
   surbhi,
   dhananjay,
   kaveri,
+ atharva,
+ nisha,
+ priyansu,
+ vrushti,
+ harish,
+ deval,
+ shrushti,
+ vaishvik,
+ Himanshu2425,
+ Rahul2425,
+ ChESlogo,
 };
