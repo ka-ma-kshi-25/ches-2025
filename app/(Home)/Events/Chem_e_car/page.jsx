@@ -32,7 +32,7 @@ const objectives = [
  * @returns {JSX.Element} The rendered page component.
  */
 /*******  5fcf98d7-4223-471f-bfe8-04159820b588  *******/
-const page = () => {
+const Page = () => {
   const [selectedOption, setSelectedOption] = useState("2024-2025");
 
   const handleDropdownChange = (e) => {
@@ -241,4 +241,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
